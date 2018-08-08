@@ -70,7 +70,27 @@ code {
 }
 
 .imgBorderGray {
-    color: #E9DCE9;
+    border-color: #DCDAD8;
+}
+
+/* Layout general */
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0 1.5rem 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.imgBorderGray {
+    border-style: solid;
+    border-width: 6px;
+}
+
+.imgRight {
+    float: right;
 }
 
 /* Layout login section */
@@ -140,6 +160,17 @@ code {
     color: #787A78;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Layout introduction */
+
+#introduction h2 {
+    color: #52463f;
+    font-style: italic;
+}
+
+#imgWebDeveloper {
+    margin: 32px 0;
 }
 
 /**
