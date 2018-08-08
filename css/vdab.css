@@ -25,6 +25,6 @@ header, main, footer, section, article, nav, div {
 .wrapper {
     width: 80%;
     min-width: 48.75rem;
-    max-width: 78.75rem;
+    max-width:  85.375rem;
     margin: 0 auto;
 }
