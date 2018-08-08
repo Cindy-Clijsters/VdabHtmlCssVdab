@@ -7,11 +7,10 @@ body, html {
 
 body {
     font: 1rem Helvetica, Verdana, Sans-Serif; /* 1rem = 16px */
-    color: #665950;
     font-size: 16px;
 }
 
-header, main, footer, section, article, nav, div {
+header, main, footer, section, article, nav, div, ul {
     padding: 0;
     margin: 0;
     border: 0;
@@ -30,6 +29,7 @@ header, main, footer, section, article, nav, div {
 /* Colors (General) */
 
 body {
+    color: #665950;
     background-color: #FCFAF8;
 }
 
@@ -96,4 +96,65 @@ code {
     color: inherit;
     font-weight: bold;
     padding: 0.25rem 0.5rem;
+}
+
+/* Layout menu section */
+
+#menu {
+    padding: 0.625rem 0;
+    border-bottom: solid 1px #DCDAD8;
+}
+
+#logo, #mainNavigation {
+    width: 50%;
+}
+
+#logo {
+    float: left;
+    text-align: left;
+}
+
+#mainNavigation {
+    float: right;
+    text-align: right;
+    margin-top: 4.75rem;
+}
+
+.horMenu {
+    list-style-type: none;
+}
+
+.horMenu li {
+    display: inline-block;
+    border-right: solid 1px #DCDAD8;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.horMenu li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.horMenu li a {
+    color: #787A78;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/**
+ * Clear fix hack
+ */
+
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
