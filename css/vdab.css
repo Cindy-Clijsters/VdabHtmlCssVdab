@@ -20,7 +20,14 @@ header, main, footer, section, article, nav, div {
     box-sizing: border-box;
 }
 
-/* Colors */
+.wrapper {
+    width: 80%;
+    min-width: 48.75rem;
+    max-width:  85.375rem;
+    margin: 0 auto;
+}
+
+/* Colors (General) */
 
 body {
     background-color: #FCFAF8;
@@ -58,10 +65,6 @@ code {
     background-color: #EBE8E5;
 }
 
-#login {
-    background-color: #8FB209;
-}
-
 .borderGray {
     border-color: #DCDAD8;
 }
@@ -70,11 +73,27 @@ code {
     color: #E9DCE9;
 }
 
-/* Structuur */
+/* Layout login section */
 
-.wrapper {
-    width: 80%;
-    min-width: 48.75rem;
-    max-width:  85.375rem;
-    margin: 0 auto;
+#login {
+    background-color: #8FB209;
+    color: #FCFAF8;
+    text-align: right;
+    padding: 0.375rem 0;
+}
+
+#login input {
+    margin-right : 0.375rem;
+}
+
+#login input:last-child {
+    margin-right : 0;
+}
+
+.loginButton {
+    background-color: #6F8927;
+    border: solid 1px green;
+    color: inherit;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
 }
