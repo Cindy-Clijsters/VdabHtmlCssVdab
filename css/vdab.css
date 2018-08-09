@@ -106,14 +106,6 @@ em {
     float: left;
 }
 
-.horMenu {
-    list-style-type: none;
-}
-
-.horMenu li {
-    display: inline-block;
-}
-
 /* Layout login section */
 
 #login {
@@ -161,18 +153,23 @@ em {
     margin-top: 4.75rem;
 }
 
-#menu .horMenu li {
+.horMenu {
+    list-style-type: none;
+}
+
+.horMenu li {
+    display: inline-block;
     border-right: solid 1px #DCDAD8;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 
-#menu .horMenu li:last-child {
+.horMenu li:last-child {
     border-right: none;
     padding-right: 0;
 }
 
-#menu .horMenu li a {
+.horMenu li a {
     color: #787A78;
     text-decoration: none;
     font-weight: bold;
@@ -196,8 +193,27 @@ em {
 }
 
 #imgResponsiveDesign {
-    margin-top: -62px;
+    margin-top: -40px;
     margin-right: 32px;
+}
+
+.checkList {
+    list-style-image: url(../img/check.png);
+    list-style-type: disc!important;
+    margin: 0 0 0 0.25rem;
+    padding: 1rem 0 0 0;
+    clear: both;
+}
+
+.checkList li {
+    float: left;
+    width: 28%;
+    margin: 0 0 0 3%;
+    padding: 0 1rem 1rem 0;
+}
+
+.checkList li:nth-child(3n+1) {
+    clear: both;
 }
 
 /**
