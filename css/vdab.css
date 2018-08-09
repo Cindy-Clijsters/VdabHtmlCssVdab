@@ -248,6 +248,13 @@ code {
     margin-top: 1rem;
 }
 
+/* Layout footer */
+
+.footerText {
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
 /**
  * Clear fix hack
  */
