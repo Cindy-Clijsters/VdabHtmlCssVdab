@@ -101,7 +101,7 @@ time+h3 {
 
 code {
     font-weight: bold;
-    font-family: Courier New;
+    font-family: "Courier New";
 }
 
 .bottomBorderGray {
@@ -198,18 +198,17 @@ code {
 }
 
 #imgWebDeveloper {
-    margin: 32px 0;
+    margin: 2rem 0;
 }
 
 /* Layout why */
 
 #why {
-    padding: 16px 0;
+    padding: 1rem 0;
 }
 
 #imgResponsiveDesign {
-    margin-top: -40px;
-    margin-right: 32px;
+    margin: -2.5rem 2rem 1rem 0;
 }
 
 .checkList {
